@@ -171,3 +171,7 @@
 
 (put 'narrow-to-region 'disabled nil)
 
+;;
+;; auto-complete
+;;
+(global-auto-complete-mode t)
