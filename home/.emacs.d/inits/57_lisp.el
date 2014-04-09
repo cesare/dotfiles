@@ -1,13 +1,11 @@
 ;;
 ;; Lisp
 ;;
-(setq inferior-lisp-program "/usr/local/bin/sbcl")
-;(setq inferior-lisp-program "ccl")
 
 ;; enable slime
-;;(add-to-list 'load-path (expand-file-name "~/.emacs.d/slime"))
-(require 'slime)
-(slime-setup '(slime-repl slime-fancy slime-banner))
+(require 'slime-autoloads)
+(setq inferior-lisp-program "/usr/local/bin/sbcl")
+(setq slime-contribs '(slime-fancy))
 
 ;; enable auto-complete-slime
 (require 'ac-slime)
