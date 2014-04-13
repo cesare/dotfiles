@@ -6,14 +6,11 @@
 ;; Environment variables
 ;;
 (let ((home-bin (expand-file-name "~/bin")))
-  (setq exec-path (list "/usr/local/scala/bin"
-                        "/usr/local/mysql/bin"
-                        "/usr/local/bin"
+  (setq exec-path (list "/usr/local/bin"
                         "/usr/bin"
                         "/bin"
                         "/usr/sbin"
                         "/sbin"
-                        "/Applications/Emacs.app/Contents/MacOS/bin"
                         home-bin)))
 (setenv "PATH" (mapconcat 'identity exec-path ":"))
 
