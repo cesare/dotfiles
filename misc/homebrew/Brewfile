@@ -1,0 +1,17 @@
+update
+upgrade
+
+tap homebrew/binary
+tap phinze/homebrew-cask
+
+install elixir
+install mysql
+install vim --with-python3 --with-lua
+install brew-cask
+
+cask install keyremap4macbook
+cask install virtualbox
+cask install vagrant
+cask install sequel-pro
+
+cleanup
