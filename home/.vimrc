@@ -111,6 +111,7 @@ NeoBundle 'git://git.code.sf.net/p/vim-latex/vim-latex'
 NeoBundle 'kannokanno/previm'
 NeoBundle 'tyru/open-browser.vim'
 NeoBundle 'rking/ag.vim'
+NeoBundle 'tpope/vim-fugitive'
 
 " Color schemes
 NeoBundle 'ujihisa/unite-colorscheme'
