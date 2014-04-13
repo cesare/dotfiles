@@ -26,9 +26,6 @@
  '(ruby-deep-indent-paren nil)
  '(c-basic-offset 2)
  '(cua-mode nil)
- '(scala-default-interpreter "/usr/local/scala/bin/scala")
- '(nush-program-name "/usr/local/bin/nush")
- '(clojure-inferior-lisp-program (expand-file-name "~/bin/clj"))
  '(show-paren-mode t))
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
