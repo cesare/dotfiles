@@ -73,6 +73,10 @@ function dic(){
 #
 # zsh parameters and configurations
 #
+setopt auto_pushd
+setopt auto_cd
+setopt pushd_to_home
+
 autoload -U colors
 colors
 
