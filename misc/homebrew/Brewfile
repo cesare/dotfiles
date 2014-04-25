@@ -6,6 +6,7 @@ tap phinze/homebrew-cask
 
 install elixir
 install mysql
+install sbt
 install vim --with-python3 --with-lua
 install xctool
 install brew-cask
