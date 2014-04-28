@@ -31,6 +31,8 @@
 (depends-on "ruby-mode")
 (depends-on "sass-mode")
 (depends-on "slim-mode")
+(depends-on "slime")
+(depends-on "slime-repl")
 
 (depends-on "rubocop")
 (depends-on "ruby-block")
