@@ -19,6 +19,7 @@
 (depends-on "zlc")
 
 ;; prog modes
+(depends-on "ac-slime")
 (depends-on "coffee-mode")
 (depends-on "go-mode")
 (depends-on "haskell-mode")
