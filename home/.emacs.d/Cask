@@ -30,6 +30,7 @@
 (depends-on "rhtml-mode")
 (depends-on "ruby-mode")
 (depends-on "sass-mode")
+(depends-on "scala-mode2")
 (depends-on "slim-mode")
 (depends-on "slime")
 (depends-on "slime-repl")
