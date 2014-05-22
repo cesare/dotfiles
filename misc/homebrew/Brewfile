@@ -4,7 +4,9 @@ upgrade
 tap homebrew/binary
 tap phinze/homebrew-cask
 
+install boot2docker
 install elixir
+install docker
 install mysql
 install sbt
 install vim --with-python3 --with-lua
