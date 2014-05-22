@@ -6,6 +6,7 @@ tap phinze/homebrew-cask
 
 install boot2docker
 install elixir
+install erlang --devel
 install docker
 install hub
 install mysql
