@@ -10,6 +10,7 @@ install erlang --devel
 install docker
 install hub
 install mysql
+install rust
 install sbt
 install vim --with-python3 --with-lua
 install xctool
