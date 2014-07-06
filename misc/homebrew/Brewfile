@@ -5,6 +5,7 @@ tap homebrew/binary
 tap peco/peco
 tap phinze/homebrew-cask
 
+install ansible
 install boot2docker
 install elixir
 install erlang --devel
