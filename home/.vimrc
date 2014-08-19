@@ -19,6 +19,11 @@ set nowrap
 set scrolloff=3
 
 "
+" Don't create undo files
+"
+set noundofile
+
+"
 " syntactic highlighting
 "
 syntax on
