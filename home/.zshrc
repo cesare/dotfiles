@@ -52,6 +52,7 @@ alias ll='ls -l --color=auto'
 
 alias g='git'
 alias be='bundle exec'
+alias bo='bundle open'
 alias bs='bundle show'
 
 alias vi='vim'
