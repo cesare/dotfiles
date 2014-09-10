@@ -18,6 +18,20 @@ abbr        it do
     it '${1}' do
     end
 
+snippet     ite
+abbr        it { expect }
+    it { expect(${1}).to ${2} }
+
+snippet     spe
+abbr        specify do
+    specify do
+      ${1}
+    end
+
+snippet     let
+abbr        let(:) {}
+    let(:${1}) { ${2} }
+
 snippet     cla
 abbr        class end
     class ${1:name}
