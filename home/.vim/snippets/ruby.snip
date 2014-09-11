@@ -47,3 +47,11 @@ snippet     mod
 abbr        module end
     module ${1:name}
     end
+
+snippet     ->
+abbr        -> {}
+    -> { ${1} }
+
+snippet     ->>
+abbr        ->() {}
+    ->(${1}) { ${2} }
