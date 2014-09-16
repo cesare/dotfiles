@@ -32,6 +32,24 @@ snippet     let
 abbr        let(:) {}
     let(:${1}) { ${2} }
 
+snippet     feat
+abbr        feature do
+    feature '${1}' do
+      ${2}
+    end
+
+snippet     bac
+abbr        background do
+    background '${1}' do
+      ${2}
+    end
+
+snippet     sce
+abbr        scenario do
+    scenario '${1}' do
+      ${2}
+    end
+
 snippet     cla
 abbr        class end
     class ${1:name}
