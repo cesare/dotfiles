@@ -22,6 +22,11 @@ export SBT_OPTS="-XX:MaxPermSize=256m"
 export RSPEC_COLOR=true
 
 #
+# Go
+#
+export GOPATH=${HOME}/lib/go
+
+#
 # others
 #
 export GREP_OPTIONS='--color=auto'
