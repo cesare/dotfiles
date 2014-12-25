@@ -121,6 +121,7 @@ NeoBundle 'tyru/open-browser.vim'
 NeoBundle 'rking/ag.vim'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'Twinside/vim-syntax-haskell-cabal'
+NeoBundle 'JuliaLang/julia-vim'
 
 " Color schemes
 NeoBundle 'ujihisa/unite-colorscheme'
