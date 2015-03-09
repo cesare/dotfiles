@@ -123,6 +123,7 @@ NeoBundle 'rking/ag.vim'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'Twinside/vim-syntax-haskell-cabal'
 NeoBundle 'JuliaLang/julia-vim'
+NeoBundle 'slim-template/vim-slim'
 
 " Color schemes
 NeoBundle 'ujihisa/unite-colorscheme'
