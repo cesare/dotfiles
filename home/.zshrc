@@ -62,6 +62,7 @@ alias bs='bundle show'
 
 alias vi='vim'
 
+alias ce='carton exec'
 
 # gclient
 alias gclient="${HOME}/svn/depot_tools/gclient"
