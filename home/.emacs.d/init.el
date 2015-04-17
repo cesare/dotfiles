@@ -1,14 +1,16 @@
 ;; -*- mode: emacs-lisp; coding: utf-8 -*-
 ;;
 ;;
+(require 'cask "/usr/local/share/emacs/site-lisp/cask.el")
+(cask-initialize)
+
 (setq load-path
       (append
-       (list (expand-file-name "~/.emacs.d/")
-             (expand-file-name "~/.emacs.d/site-lisp")
-             )
+       (list
+         (expand-file-name "~/.emacs.d/site-lisp"))
        load-path))
 
-(require 'init-loader)
+(require 'init-loader "~/.emacs.d/init-loader.el")
 (setq init-loader-show-log-after-init nil)
 (init-loader-load)
 
