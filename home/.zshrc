@@ -36,6 +36,9 @@ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig
 # set paths
 #
 path=(
+  ${HOME}/.rbenv/bin
+  $HOME/.nodebrew/current/bin
+  /usr/local/opt/coreutils/libexec/gnubin
   /usr/local/bin
   /bin
   /usr/bin
