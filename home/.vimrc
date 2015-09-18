@@ -214,6 +214,16 @@ au FileType unite inoremap <silent> <buffer> <ESC><ESC> <ESC>q
 let g:Grep_Xargs_Path = "/usr/local/bin/gxargs"
 
 "
+" the platinum searcher
+"
+nnoremap <silent> ,g :<C-u>Unite grep:. -buffer-name=search-buffer<CR>
+if executable('pt')
+  let g:unite_source_grep_command = 'pt'
+  let g:unite_source_grep_default_opts = '--nogroup --nocolor'
+  let g:unite_source_grep_recursive_opt = ''
+endif
+
+"
 " vim-over
 "
 nnoremap <silent> <Leader>m :OverCommandLine<CR>
