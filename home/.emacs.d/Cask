@@ -26,6 +26,7 @@
 (depends-on "js2-mode")
 (depends-on "json-mode")
 (depends-on "less-css-mode")
+(depends-on "markdown-mode")
 (depends-on "motion-mode")
 (depends-on "puppet-mode")
 (depends-on "rhtml-mode")
