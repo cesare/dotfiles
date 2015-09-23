@@ -57,6 +57,7 @@ alias cp='cp -i'
 
 alias ls='ls --color=auto'
 alias ll='ls -l --color=auto'
+alias tree='tree -C'
 
 alias g='git'
 alias be='bundle exec'
