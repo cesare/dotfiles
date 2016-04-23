@@ -93,7 +93,6 @@ if has('vim_starting')
 endif
 call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
-call neobundle#end()
 
 NeoBundle 'Shougo/neocomplete'
 NeoBundle 'Shougo/neosnippet'
@@ -116,7 +115,6 @@ NeoBundle 'kana/vim-smartinput'
 NeoBundle 'sudo.vim'
 NeoBundle 'tfnico/vim-gradle'
 NeoBundle 'osyo-manga/vim-over'
-NeoBundle 'git://git.code.sf.net/p/vim-latex/vim-latex'
 NeoBundle 'kannokanno/previm'
 NeoBundle 'tyru/open-browser.vim'
 NeoBundle 'rking/ag.vim'
@@ -136,6 +134,8 @@ NeoBundle 'tomasr/molokai'
 
 "NeoBundle 'Lokaltog/powerline', { 'rtp' : 'powerline/bindings/vim' }
 NeoBundle 'itchyny/lightline.vim'
+
+call neobundle#end()
 
 colorscheme jellybeans
 let g:lightline = {
