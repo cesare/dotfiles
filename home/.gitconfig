@@ -19,6 +19,7 @@
   co = checkout
   st = status
   b  = branch
+  rpo = remote prune origin
 
 [ghq]
   root = ~/git
