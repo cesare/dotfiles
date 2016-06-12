@@ -1,7 +1,7 @@
 ;; -*- mode: emacs-lisp; coding: utf-8 -*-
 ;;
 ;;
-(require 'cask "/usr/local/share/emacs/site-lisp/cask.el")
+(require 'cask "~/.cask/cask.el")
 (cask-initialize)
 
 (setq load-path
