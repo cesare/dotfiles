@@ -123,6 +123,7 @@ NeoBundle 'Twinside/vim-syntax-haskell-cabal'
 NeoBundle 'JuliaLang/julia-vim'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'elmcast/elm-vim'
+NeoBundle 'sorah/unite-ghq'
 
 " Color schemes
 NeoBundle 'ujihisa/unite-colorscheme'
@@ -227,3 +228,12 @@ endif
 " vim-over
 "
 nnoremap <silent> <Leader>m :OverCommandLine<CR>
+
+"
+" unite-ghq
+"
+noremap [unite] <Nop>
+map     <Leader>u [unite]
+
+nnoremap <silent>[unite]p :<C-u>Unite file_rec/async<CR>
+nnoremap <silent>[unite]g :<C-u>Unite ghq<CR>
