@@ -84,6 +84,13 @@ filetype off
 set nobackup
 set noswapfile
 
+"
+" wrap, breakindent
+"
+set wrap
+if (v:version >= 800)
+  set breakindent
+endif
 
 " neobundle
 set nocompatible
