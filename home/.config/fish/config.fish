@@ -1,5 +1,7 @@
 set -U fish_user_paths ~/.rbenv/bin /usr/local/bin /usr/local/sbin /usr/bin /usr/sbin /bin /sbin ~/bin
 
+set -x EDITOR vim
+
 alias be "bundle exec"
 
 alias rm "rm -i"
