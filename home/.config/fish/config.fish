@@ -14,5 +14,3 @@ rbenv init - | source
 function fish_user_key_bindings
   bind \c] peco_select_ghq_repository
 end
-
-eval (direnv hook fish)
