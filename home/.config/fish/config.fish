@@ -2,6 +2,7 @@ set -U fish_user_paths ~/.rbenv/bin /usr/local/bin /usr/local/sbin /usr/bin /usr
 
 set -x EDITOR nvim
 set -x LESS "-i -M -R -S -W"
+set -x GOPATH ~/src/golang
 
 alias be "bundle exec"
 
