@@ -4,6 +4,8 @@ set -U fish_user_paths {$GOPATH}/bin ~/.rbenv/bin /usr/local/bin /usr/local/sbin
 set -x EDITOR nvim
 set -x LESS "-i -M -R -S -W"
 
+set -x XDG_CONFIG_HOME ~/.config
+
 alias be "bundle exec"
 
 alias rm "rm -i"
