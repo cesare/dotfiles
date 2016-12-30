@@ -1,7 +1,7 @@
 set -x GOPATH ~/src/golang
 set -x PYENV_ROOT ~/.pyenv
 
-set -U fish_user_paths {$GOPATH}/bin ~/.rbenv/bin {$PYENV_ROOT}/bin /usr/local/bin /usr/local/sbin /usr/bin /usr/sbin /bin /sbin ~/bin
+set -U fish_user_paths {$GOPATH}/bin ~/.rbenv/bin {$PYENV_ROOT}/bin ~/.cargo/bin /usr/local/bin /usr/local/sbin /usr/bin /usr/sbin /bin /sbin ~/bin
 
 set -x EDITOR nvim
 set -x LESS "-i -M -R -S -W"
