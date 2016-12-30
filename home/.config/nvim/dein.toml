@@ -8,3 +8,5 @@ build = 'make'
 [[plugins]]
 repo = 'Shougo/neosnippet-snippets'
 
+[[plugins]]
+repo = 'nanotech/jellybeans.vim'
