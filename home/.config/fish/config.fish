@@ -1,5 +1,6 @@
 set -x GOPATH ~/src/golang
 set -x PYENV_ROOT ~/.pyenv
+set -x RUST_SRC_PATH ~/src/rust/src
 
 set -U fish_user_paths {$GOPATH}/bin ~/.rbenv/bin {$PYENV_ROOT}/bin ~/.cargo/bin /usr/local/bin /usr/local/sbin /usr/bin /usr/sbin /bin /sbin ~/bin
 
