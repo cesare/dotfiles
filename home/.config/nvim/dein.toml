@@ -10,3 +10,16 @@ repo = 'Shougo/neosnippet-snippets'
 
 [[plugins]]
 repo = 'nanotech/jellybeans.vim'
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+  let g:lightline = {
+    \ 'colorscheme': 'jellybeans',
+    \ 'separator': { 'left': '⮀', 'right': '⮂' },
+    \ 'component': {
+    \   'readonly': '%{&readonly?"⭤":""}',
+    \ },
+    \ 'subseparator': { 'left': '⮁', 'right': '⮃' },
+    \ }
+'''
