@@ -9,6 +9,16 @@ set -x LESS "-i -M -R -S -W"
 
 set -x XDG_CONFIG_HOME ~/.config
 
+set -x LIST_PROJECTS_DIR ~/labs
+function peco_select_project
+  list-projects | peco | read line
+
+  if [ $line ]
+    cd $line
+    commandline -f repaint
+  end
+end
+
 alias be "bundle exec"
 
 alias rm "rm -i"
@@ -23,4 +33,6 @@ end
 
 function fish_user_key_bindings
   bind \c] peco_select_ghq_repository
+  bind \co peco_select_project
 end
+
