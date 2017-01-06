@@ -46,6 +46,8 @@ set shiftwidth=2
 set noautoindent
 set smartindent
 
+set clipboard+=unnamedplus
+
 filetype on
 filetype indent on
 filetype plugin on
