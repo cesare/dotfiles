@@ -7,9 +7,8 @@ set -x XDG_CONFIG_HOME ~/.config
 
 set -x PATH {$GOPATH}/bin ~/.rbenv/bin {$PYENV_ROOT}/bin ~/.cargo/bin /usr/local/bin /usr/local/sbin /usr/bin /usr/sbin /bin /sbin ~/bin
 
-set -x LIST_PROJECTS_DIR ~/labs
 function peco_select_project
-  list-projects | peco | read line
+  list-projects --project-root={$HOME}/labs | peco | read line
 
   if [ $line ]
     cd $line
