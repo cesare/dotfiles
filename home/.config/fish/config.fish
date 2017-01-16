@@ -16,6 +16,13 @@ function peco_select_project
   end
 end
 
+function up
+  set dir (upto_top)
+  if [ $dir ]
+    cd $dir
+  end
+end
+
 alias be "bundle exec"
 
 alias rm "rm -i"
