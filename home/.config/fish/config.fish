@@ -24,6 +24,7 @@ function up
 end
 
 alias be "bundle exec"
+alias nv "nvim"
 
 alias rm "rm -i"
 alias mv "mv -i"
