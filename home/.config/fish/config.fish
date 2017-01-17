@@ -23,6 +23,15 @@ function up
   end
 end
 
+function upto
+  list_tops | peco | read line
+
+  if [ $line ]
+    cd $line
+    commandline -f repaint
+  end
+end
+
 alias be "bundle exec"
 alias nv "nvim"
 
