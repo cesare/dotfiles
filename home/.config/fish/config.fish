@@ -41,7 +41,7 @@ alias cp "cp -i"
 
 function dclean
   set ids (docker ps -f status=exited --format "{{.ID}}")
-  if [ $ids ]
+  if [ "$ids" ]
     docker rm $ids
   end
 end
