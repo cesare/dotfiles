@@ -39,6 +39,13 @@ alias rm "rm -i"
 alias mv "mv -i"
 alias cp "cp -i"
 
+function dclean
+  set ids (docker ps -f status=exited --format "{{.ID}}")
+  if [ $ids ]
+    docker rm $ids
+  end
+end
+
 rbenv init - | source
 
 if test -d ~/.pyenv
