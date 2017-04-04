@@ -2,26 +2,27 @@
   name = SAWADA Tadashi
   email = cesare@mayverse.jp
 
-[color]
-  diff = auto
-  status = auto
-  branch = auto
-
-[push]
-  default = simple
-
 [core]
   precomposeunicode = true
   quotepath = false
 
 [alias]
-  ci = commit
-  co = checkout
-  st = status
-  b  = branch
-  rpo = remote prune origin
+  b   = branch
+  ci  = commit
+  co  = checkout
   dfc = diff --cached
   dfn = diff --name-only
+  st  = status
+  rpo = remote prune origin
+
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+  ui = always
 
 [ghq]
   root = ~/git
+
+[push]
+  default = simple
