@@ -20,6 +20,8 @@
   st = status
   b  = branch
   rpo = remote prune origin
+  dfc = diff --cached
+  dfn = diff --name-only
 
 [ghq]
   root = ~/git
