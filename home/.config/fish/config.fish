@@ -57,3 +57,6 @@ function fish_user_key_bindings
   bind \co peco_select_project
 end
 
+if test -f ./local.fish
+  source ./local.fish
+end
