@@ -55,12 +55,6 @@ set shiftwidth=2
 set noautoindent
 set smartindent
 
-""
-"" 空行のインデントを勝手に消さない
-""
-"nnoremap o oX<C-h>
-"nnoremap O OX<C-h>
-"inoremap <CR> <CR>X<C-h>
 
 "
 " encoding
@@ -74,8 +68,6 @@ set fileformat=unix
 
 
 filetype off
-"call pathogen#runtime_append_all_bundles()
-
 
 
 "
@@ -140,7 +132,6 @@ NeoBundle 'vim-scripts/twilight'
 NeoBundle 'jpo/vim-railscasts-theme'
 NeoBundle 'tomasr/molokai'
 
-"NeoBundle 'Lokaltog/powerline', { 'rtp' : 'powerline/bindings/vim' }
 NeoBundle 'itchyny/lightline.vim'
 
 call neobundle#end()
@@ -203,8 +194,6 @@ nnoremap <silent> [unite]b :<C-u>Unite buffer<CR>
 nnoremap <silent> [unite]f :<C-u>Unite -buffer-name=file file<CR>
 nnoremap <silent> [unite]r :<C-u>Unite -buffer-name=register register<CR>
 nnoremap <silent> [unite]m :<C-u>Unite file_mru<CR>
-"nnoremap <silent> ,uu :<C-u>Unite buffer file_mru<CR>
-"nnoremap <silent> ,ua :<C-u>UniteWithBufferDir -buffer-name=files buffer file_mru bookmark file<CR>
 
 " ウィンドウを分割して開く
 au FileType unite nnoremap <silent> <buffer> <expr> <C-j> unite#do_action('split')
