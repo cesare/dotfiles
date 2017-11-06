@@ -57,6 +57,6 @@ function fish_user_key_bindings
   bind \co peco_select_project
 end
 
-if test -f ./local.fish
-  source ./local.fish
+if test -f $XDG_CONFIG_HOME/fish/local.fish
+  source $XDG_CONFIG_HOME/fish/local.fish
 end
