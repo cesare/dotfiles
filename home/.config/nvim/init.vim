@@ -51,3 +51,5 @@ set clipboard+=unnamedplus
 filetype on
 filetype indent on
 filetype plugin on
+
+au BufRead,BufNewFile *.yml.liquid set filetype=yaml
