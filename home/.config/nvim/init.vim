@@ -53,3 +53,4 @@ filetype indent on
 filetype plugin on
 
 au BufRead,BufNewFile *.yml.liquid set filetype=yaml
+au BufRead,BufNewFile *.dig set filetype=yaml
