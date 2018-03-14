@@ -32,6 +32,14 @@ function upto
   end
 end
 
+function apf
+  grep --color=no --only-matching '^\[profile .*\]' ~/.aws/config | sed 's/^\[profile //' | sed 's/\]$//' | peco | read line
+
+  if [ $line ]
+    export AWS_PROFILE=$line
+  end
+end
+
 alias be "bundle exec"
 alias nv "nvim"
 
