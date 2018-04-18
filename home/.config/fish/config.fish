@@ -8,7 +8,7 @@ set -x XDG_CONFIG_HOME ~/.config
 set -x PATH {$GOPATH}/bin ~/.rbenv/bin {$PYENV_ROOT}/bin ~/.cargo/bin ~/.local/bin /Library/TeX/texbin /usr/local/bin /usr/local/sbin /usr/bin /usr/sbin /bin /sbin ~/bin
 
 function peco_select_project
-  lpj --project-root={$HOME}/labs | peco | read line
+  lpj --project-root={$HOME}/labs | fzf --reverse | read line
 
   if [ $line ]
     cd $line
