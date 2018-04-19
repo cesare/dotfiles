@@ -54,6 +54,14 @@ function dclean
   end
 end
 
+function tnotify
+  if set -q TMUX
+    reattach-to-user-namespace terminal-notifier $argv
+  else
+    terminal-notifier $argv
+  end
+end
+
 rbenv init - | source
 
 if test -d ~/.pyenv
