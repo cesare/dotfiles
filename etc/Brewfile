@@ -95,6 +95,7 @@ brew "redis", restart_service: true
 brew "ripgrep"
 brew "sbcl"
 brew "smlnj"
+brew "terminal-notifier"
 brew "the_platinum_searcher"
 brew "the_silver_searcher"
 brew "tig"
