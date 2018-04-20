@@ -9,7 +9,6 @@ tap "homebrew/services"
 tap "neovim/neovim"
 tap "sanemat/font"
 tap "staticfloat/julia"
-tap "uetchy/nlp"
 tap "universal-ctags/universal-ctags"
 
 cask "java"
@@ -109,7 +108,6 @@ brew "codekitchen/dinghy/unfs3"
 brew "codekitchen/dinghy/dinghy"
 brew "sanemat/font/ricty", args: ["vim-powerline"]
 brew "staticfloat/julia/julia"
-brew "uetchy/nlp/knp"
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
 cask "mactex"
 cask "vagrant"
