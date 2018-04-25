@@ -88,6 +88,7 @@ brew "opencv"
 brew "peco"
 brew "postgresql", restart_service: true
 brew "protobuf"
+brew "r"
 brew "rabbitmq", restart_service: true
 brew "reattach-to-user-namespace"
 brew "redis", restart_service: true
