@@ -87,6 +87,7 @@ brew "node"
 brew "openblas"
 brew "opencv"
 brew "peco"
+brew "pipenv"
 brew "postgresql", restart_service: true
 brew "protobuf"
 brew "r"
