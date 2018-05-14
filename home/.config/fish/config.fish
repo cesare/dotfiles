@@ -81,7 +81,7 @@ if test -d ~/.pyenv
 end
 
 function fish_user_key_bindings
-  bind \c] peco_select_ghq_repository
+  bind \c] select_ghq_repository
   bind \co peco_select_project
 end
 
