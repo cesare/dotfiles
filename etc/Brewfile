@@ -1,5 +1,6 @@
 tap "caskroom/cask"
 tap "caskroom/drivers"
+tap "caskroom/versions"
 tap "homebrew/boneyard"
 tap "homebrew/bundle"
 tap "homebrew/core"
@@ -10,6 +11,7 @@ tap "staticfloat/julia"
 tap "universal-ctags/universal-ctags"
 
 cask "java"
+cask "java8"
 
 brew "augeas"
 brew "autoconf"
