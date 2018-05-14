@@ -7,7 +7,6 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "neovim/neovim"
 tap "sanemat/font"
-tap "staticfloat/julia"
 tap "universal-ctags/universal-ctags"
 
 cask "java"
@@ -107,7 +106,6 @@ brew "vim", args: ["with-lua"]
 brew "wget"
 brew "zsh"
 brew "sanemat/font/ricty", args: ["vim-powerline"]
-brew "staticfloat/julia/julia"
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
 cask "mactex"
 cask "vagrant"
