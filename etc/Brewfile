@@ -50,7 +50,6 @@ brew "glew"
 brew "glfw"
 brew "glog"
 brew "lua"
-brew "gnuplot", args: ["with-x11"]
 brew "go"
 brew "gobject-introspection"
 brew "gradle"
