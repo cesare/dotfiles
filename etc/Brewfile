@@ -1,6 +1,5 @@
 tap "caskroom/cask"
 tap "caskroom/drivers"
-tap "codekitchen/dinghy"
 tap "homebrew/boneyard"
 tap "homebrew/bundle"
 tap "homebrew/core"
@@ -105,8 +104,6 @@ brew "typesafe-activator"
 brew "vim", args: ["with-lua"]
 brew "wget"
 brew "zsh"
-brew "codekitchen/dinghy/unfs3"
-brew "codekitchen/dinghy/dinghy"
 brew "sanemat/font/ricty", args: ["vim-powerline"]
 brew "staticfloat/julia/julia"
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
