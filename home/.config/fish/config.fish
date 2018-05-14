@@ -12,6 +12,7 @@ set -x PATH {$GOPATH}/bin ~/.rbenv/bin {$PYENV_ROOT}/bin ~/.cargo/bin ~/.local/b
 #
 # fundle
 #
+fundle plugin cesare/rust-upto-top --path fish
 fundle plugin hagiyat/anyfff
 fundle plugin oh-my-fish/theme-cmorrell.com
 fundle init
@@ -25,13 +26,6 @@ function peco_select_project
   if [ $line ]
     cd $line
     commandline -f repaint
-  end
-end
-
-function up
-  set dir (upto_top)
-  if [ $dir ]
-    cd $dir
   end
 end
 
@@ -51,6 +45,8 @@ function apf
     export AWS_PROFILE=$line
   end
 end
+
+alias up go_upto_top
 
 alias be "bundle exec"
 alias nv "nvim"
