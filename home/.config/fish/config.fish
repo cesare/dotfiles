@@ -1,5 +1,4 @@
 set -x GOPATH ~/src/golang
-set -x PYENV_ROOT ~/.pyenv
 set -x RUST_SRC_PATH ~/src/rust/src
 set -x EDITOR nvim
 set -x LESS "-i -M -R -S -W"
@@ -68,10 +67,6 @@ function tnotify
 end
 
 rbenv init - | source
-
-if test -d ~/.pyenv
-  pyenv init - | source
-end
 
 function fish_user_key_bindings
   bind \c] select_ghq_repository
