@@ -85,7 +85,6 @@ brew "mysql", restart_service: true
 brew "neo4j"
 brew "neovim"
 brew "nkf"
-brew "node"
 brew "openblas"
 brew "opencv"
 brew "openssl"
