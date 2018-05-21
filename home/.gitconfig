@@ -5,6 +5,8 @@
 [core]
   precomposeunicode = true
   quotepath = false
+  autocrlf = input
+  excludesfile = ~/.gitignore_global
 
 [alias]
   b   = branch
@@ -14,6 +16,7 @@
   dfn = diff --name-only
   st  = status
   rpo = remote prune origin
+  push-f = push --force-with-lease
 
 [color]
   branch = auto
@@ -23,6 +26,12 @@
 
 [ghq]
   root = ~/git
+
+[grep]
+  linenumber = true
+
+[merge]
+  ff = yes
 
 [push]
   default = simple
