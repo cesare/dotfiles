@@ -7,6 +7,7 @@
   quotepath = false
   autocrlf = input
   excludesfile = ~/.gitignore_global
+  pager = less -R -F -X
 
 [alias]
   b   = branch
