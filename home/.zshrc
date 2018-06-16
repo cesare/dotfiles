@@ -139,3 +139,16 @@ if [ -f ~/.zshrc-local ]
 then
   source ~/.zshrc-local
 fi
+
+#
+# cdr
+#
+autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
+add-zsh-hook chpwd chpwd_recent_dirs
+
+#
+# anyframe
+#
+fpath=($HOME/.zsh/anyframe(N-/) $fpath)
+autoload -Uz anyframe-init
+anyframe-init
