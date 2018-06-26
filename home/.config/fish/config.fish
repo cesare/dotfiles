@@ -13,6 +13,7 @@ set -x PATH {$GOPATH}/bin ~/.rbenv/bin {$PYENV_ROOT}/bin ~/.cargo/bin ~/.local/b
 #
 fundle plugin cesare/rust-upto-top --path fish
 fundle plugin fisherman/z
+fundle plugin hagiyat/anyfff
 fundle plugin oh-my-fish/theme-cmorrell.com
 fundle init
 
