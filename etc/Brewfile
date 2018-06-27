@@ -64,6 +64,7 @@ brew "hdf5"
 brew "highlight"
 brew "oniguruma"
 brew "imagemagick@6"
+brew "inetutils"
 brew "jq"
 brew "jumanpp"
 brew "kafka", restart_service: true
