@@ -6,6 +6,8 @@ set -x XDG_CONFIG_HOME ~/.config
 set -x RSTUDIO_WHICH_R /usr/local/bin/R
 set -x FZF_DEFAULT_OPTS --reverse
 
+set -gx ANYFFF__FINDER_APP fzf
+
 set -x PATH {$GOPATH}/bin ~/.rbenv/bin {$PYENV_ROOT}/bin ~/.cargo/bin ~/.local/bin /Library/TeX/texbin /usr/local/bin /usr/local/sbin /usr/bin /usr/sbin /bin /sbin ~/bin
 
 #
