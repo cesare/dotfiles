@@ -89,6 +89,7 @@ brew "nkf"
 brew "openblas"
 brew "opencv"
 brew "openssl"
+brew "pcre2"
 brew "peco"
 brew "pipenv"
 brew "postgresql", restart_service: true
