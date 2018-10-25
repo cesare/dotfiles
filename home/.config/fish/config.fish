@@ -8,7 +8,7 @@ set -x FZF_DEFAULT_OPTS --reverse
 
 set -gx ANYFFF__FINDER_APP fzf
 
-set -x PATH {$GOPATH}/bin ~/.rbenv/bin {$PYENV_ROOT}/bin ~/.cargo/bin ~/.local/bin /Library/TeX/texbin /usr/local/bin /usr/local/sbin /usr/bin /usr/sbin /bin /sbin ~/bin
+set -x PATH {$GOPATH}/bin ~/.rbenv/bin {$PYENV_ROOT}/bin ~/.cargo/bin ~/.local/bin /usr/local/bin /usr/local/sbin /usr/bin /usr/sbin /bin /sbin ~/bin
 
 #
 # fundle
