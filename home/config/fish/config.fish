@@ -13,6 +13,7 @@ set -x PATH {$GOPATH}/bin ~/.rbenv/bin {$PYENV_ROOT}/bin ~/.cargo/bin ~/.local/b
 #
 # fundle
 #
+if not functions -q fundle; eval (curl -sfL https://git.io/fundle-install); end
 fundle plugin cesare/rust-upto-top --path fish
 fundle plugin fisherman/z
 fundle plugin hagiyat/anyfff
