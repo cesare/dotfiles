@@ -14,7 +14,6 @@ set -x PATH {$GOPATH}/bin ~/.rbenv/bin {$PYENV_ROOT}/bin ~/.cargo/bin ~/.local/b
 # fundle
 #
 if not functions -q fundle; eval (curl -sfL https://git.io/fundle-install); end
-fundle plugin cesare/rust-upto-top --path fish
 fundle plugin fisherman/z
 fundle plugin hagiyat/anyfff
 fundle plugin oh-my-fish/theme-cmorrell.com
@@ -47,7 +46,13 @@ function apf
   end
 end
 
-alias up go_upto_top
+function up
+  set dir (git rev-parse --show-toplevel)
+
+  if [ $dir ]
+    cd $dir
+  end
+end
 
 alias be "bundle exec"
 alias nv "nvim"
