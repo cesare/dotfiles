@@ -89,3 +89,6 @@ end
 
 # use direnv
 eval (direnv hook fish)
+
+# nodenv
+status --is-interactive; and source (nodenv init -|psub)
