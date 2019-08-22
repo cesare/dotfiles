@@ -21,7 +21,7 @@ fundle init
 
 
 function peco_select_project
-  lpj --project-root={$HOME}/labs | fzf --reverse | read line
+  find ~/labs -type d -maxdepth 2 | fzf --reverse | read line
 
   if [ $line ]
     cd $line
