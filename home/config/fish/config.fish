@@ -76,6 +76,12 @@ function tnotify
   end
 end
 
+function delete_branches
+  for branch in (git branch --format='%(refname:short)' | fzf -m)
+    git branch -d $branch
+  end
+end
+
 rbenv init - | source
 
 function fish_user_key_bindings
