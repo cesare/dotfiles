@@ -4,5 +4,7 @@
     "workbench.colorTheme": "One Dark Pro",
     "editor.minimap.enabled": false,
     "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.tabSize": 2,
+    "vsicons.dontShowNewVersionMessage": true
 }
