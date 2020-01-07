@@ -18,6 +18,7 @@
   st  = status
   rpo = remote prune origin
   push-f = push --force-with-lease
+  sw  = switch
 
 [color]
   branch = auto
