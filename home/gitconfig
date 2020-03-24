@@ -19,6 +19,7 @@
   rpo = remote prune origin
   push-f = push --force-with-lease
   sw  = switch
+  showpr = !"f() { git log --merges --oneline --reverse --ancestry-path $1...master | grep 'Merge pull request #' | head -n 1; }; f"
 
 [color]
   branch = auto
