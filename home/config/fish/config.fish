@@ -39,7 +39,7 @@ function upto
 end
 
 function apf
-  grep --color=no --only-matching '^\[profile .*\]' ~/.aws/config | sed -E 's/^\[profile (.*)\]/\1/' | peco | read line
+  grep --color=no --only-matching '^\[.*\]' ~/.aws/config | sed -E 's/^\[\s*(.*)\s*\]/\1/' | fzf | read line
 
   if [ $line ]
     export AWS_PROFILE=$line
