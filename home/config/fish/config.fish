@@ -61,6 +61,9 @@ alias rm "rm -i"
 alias mv "mv -i"
 alias cp "cp -i"
 
+alias xl "exa -l"
+alias xa "exa -la"
+
 function dclean
   set ids (docker ps -f status=exited --format "{{.ID}}")
   if [ "$ids" ]
