@@ -85,6 +85,10 @@ function delete_branches
   end
 end
 
+function delete_merged_branches
+  git branch --merged | grep -v '*' | xargs -I % git branch -d %
+end
+
 rbenv init - | source
 
 function fish_user_key_bindings
