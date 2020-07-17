@@ -1,4 +1,5 @@
 set -x GOPATH ~/src/golang
+set -x GO11MODULE on
 set -x RUST_SRC_PATH ~/src/rust/src
 set -x EDITOR nvim
 set -x LESS "-i -M -R -S -W"
