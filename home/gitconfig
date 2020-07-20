@@ -11,6 +11,7 @@
 
 [alias]
   b   = branch
+  bm  = branch --merged
   ci  = commit
   co  = checkout
   dfc = diff --cached
