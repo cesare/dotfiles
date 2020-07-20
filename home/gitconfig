@@ -14,8 +14,8 @@
   bm  = branch --merged
   ci  = commit
   co  = checkout
-  dfc = diff --cached
-  dfn = diff --name-only
+  dc  = diff --cached
+  dn  = diff --name-only
   st  = status
   rpo = remote prune origin
   push-f = push --force-with-lease
