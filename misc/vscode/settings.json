@@ -6,5 +6,10 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "editor.tabSize": 2,
-    "vsicons.dontShowNewVersionMessage": true
+    "editor.detectIndentation": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "[rust]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    }
 }
