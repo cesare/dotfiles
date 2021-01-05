@@ -62,8 +62,8 @@ alias rm "rm -i"
 alias mv "mv -i"
 alias cp "cp -i"
 
-alias xl "exa -l"
-alias xa "exa -la"
+alias xl "exa --long --binary --time-style long-iso"
+alias xa "exa --long --binary --time-style long-iso --all"
 
 function dclean
   set ids (docker ps -f status=exited --format "{{.ID}}")
